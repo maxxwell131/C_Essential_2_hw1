@@ -21,6 +21,18 @@ namespace Addition_task
     {
         static void Main(string[] args)
         {
+            Address myAdress = new Address();
+            myAdress.Index = "410041";
+            myAdress.Countru = "USSR";
+            myAdress.City = "Kyiv";
+            myAdress.Street = "Lenina";
+            myAdress.House = 9;
+            myAdress.Apartament = 234;
+
+            myAdress.AdressShow();
+
+            //Delay.
+            Console.ReadLine();
         }
     }
 }
