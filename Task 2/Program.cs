@@ -23,6 +23,12 @@ namespace Task_2
     {
         static void Main(string[] args)
         {
+            Rectangle myRectangle = new Rectangle(100,200);
+
+            Console.WriteLine("Rectangle Area is {0}", myRectangle.Area);
+            Console.WriteLine("Rectangle Perimetrf is {0}", myRectangle.Perimeter);
+
+            Console.ReadKey();
         }
     }
 }
